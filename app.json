@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "sharewheels",
+    "slug": "sharewheels",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "softwareKeyboardLayoutMode": "pan",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "permissions": [
+      "camera",
+      "mediaLibrary"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "db323ba8-b0ed-4575-b375-8ce06ef53343"
+      }
+    },
+    "owner": "krimou"
+  }
+}
